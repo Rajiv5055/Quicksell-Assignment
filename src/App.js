@@ -7,7 +7,8 @@ class App extends Component {
 		this.state = {
 			counter: 1,
 			Max: 1000,
-			loading:false
+			loading:false,
+			input: true
 		}
 	}
     
