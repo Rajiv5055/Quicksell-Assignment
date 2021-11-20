@@ -1,0 +1,87 @@
+.app {
+  text-align: center;
+  display: block;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 18%;
+  margin-right: 40%;
+  margin-bottom: 15%;
+}
+
+
+.button1{
+	border:2px solid #b30000;
+	color:#b30000;
+    padding:14px 23px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.button2{
+   color :#b30000;
+   background:#ffcccc;
+   border:2px solid #b30000;
+   padding:14px 17.5px;
+}
+
+.button3{
+   color : white;
+   background: #b30000;
+   border:2px solid #b30000;
+   padding:14px 23px;
+   border-radius: 0px 7px 7px 0px;
+}
+
+.box{
+    text-align: center;
+    margin-left: 50%;
+}
+
+.btn-group{
+	justify-content: center;
+	align-items: center;
+	width:257px;
+	height:130px;
+	padding:0px 37px 0px 37px;
+    border:2px solid grey;
+    border-radius: 7px;
+	background: #FFFFFF;
+}
+
+.load {
+	margin: -7px 10px 10px 35px;
+	height: 16px;
+	width: 150px; 
+	align-items: left;
+	justify-content: top;
+}
+
+.text1{
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: -17px;
+  font-weight: medium;
+}
+
+.text2{
+  font-size: 12px;
+  margin: 20px 0px 0px -30px;
+  font-weight: medium;
+}
+
+.loader {
+	margin-top: 0px;
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid grey;
+  width: 13px;
+  height: 13px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
